@@ -13,9 +13,9 @@ from . import engine
 
 # Global variables
 CACHE       = 15 # minutes
-url_punch      = 'https://www.punchng.com'
-raw_html    = 'scrapes/news/punch.html'
-output_html = 'output/news/punchrss.html'
+url_punch      = 'https://www.vanguardngr.com/'
+raw_html    = 'scrapes/news/vanguardngr.html'
+output_html = 'output/news/vanguardrss.html'
 user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
 headers = {'User-Agent':user_agent,} 
 request = urllib.request.Request(url_punch,None,headers)

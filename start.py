@@ -1,8 +1,8 @@
-# author: 
+# author: Kc Nwaezuoke
 # MIT License
 
 # --------------------------
-#  PunchNG.com Demo
+#  PunchNG.com
 # --------------------------
 
 ## News title, link scraping
