@@ -4,10 +4,17 @@ Description
 --
 this a python project that uses beautifulsoup to scrape nigerian-centric news and information and make it available on the Free basics platform.
 
+TO DO
+--
+- add 4 more sources
+- fix urls
+- fix vanguard blank scrape
+
+
 About Areahints
 --
 
-The brainchild of a lot of online resources, notably eDX, Udacity and the World Bank Open Learning Campus. Our target market is small and medium businesses, entrepreneurs, students and you.
+The brainchild of a lot of online resources, notably eDX, Udacity, Andela and the World Bank Open Learning Campus. Our target market is small and medium businesses, entrepreneurs, students and you.
  
 We believe that every idea has the capacity to mature into the business of your dreams. Our strategy is simple, provide quality solutions that are cost effective to our clients.
 

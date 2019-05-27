@@ -2,7 +2,7 @@
 # MIT License
 
 # --------------------------
-#  Punch Scraping
+#  vanguard Scraping
 # --------------------------
 
 import urllib
@@ -13,14 +13,14 @@ from . import engine
 
 # Global variables
 CACHE       = 15 # minutes
-url_punch      = 'https://www.vanguardngr.com/'
+url_vanguard      = 'https://www.vanguardngr.com/'
 raw_html    = 'scrapes/news/vanguardngr.html'
 output_html = 'output/news/vanguardrss.html'
 user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
 headers = {'User-Agent':user_agent,} 
-request = urllib.request.Request(url_punch,None,headers)
+request = urllib.request.Request(url_vanguard,None,headers)
 
-class Punch:
+class Vanguard:
     _url   = ''
     _data  = ''
     _log  = None
@@ -65,7 +65,7 @@ class Punch:
         
         htmltext = '''
 <html>
-    <head><title>RSS BASICS PunchNg</title></head>
+    <head><title>RSS BASICS VanguardNg</title></head>
     <body>
         {NEWS_LINKS}
     </body>
