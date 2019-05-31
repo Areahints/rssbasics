@@ -2,7 +2,7 @@
 
 Description
 --
-this a python project that uses beautifulsoup to scrape nigerian-centric news and information and make it available on the Free basics platform.
+this a python project that uses beautifulsoup to scrape nigerian-centric news and information and make it available on the Free basics platform..
 
 TO DO
 --
